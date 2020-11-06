@@ -12,7 +12,7 @@ Python 3.9+ (recommend using pyenv and installing it)
 
 You should be familiar with python and javascript to make this work.
 
-There is a requirements.txt in
+Vue via `npm install -g @vue/cli`
 
 ### quickstart steps
 
@@ -23,4 +23,10 @@ There is a requirements.txt in
 
 ## faq
 
-Coming soon
+1. How did you create this?
+
+Following [this guide](https://medium.com/@samy_raps/simple-movies-web-app-with-vue-vuetify-and-django-part-1-setup-6351c02327a5) originally and building off of it from there.
+
+2. Where are the clean and build and run commands in a Makefile?
+
+Coming soon.
