@@ -11,7 +11,10 @@ export default {
   },
   methods: {
     checkLoggedIn() {
-      router.push("/auth");
+      this.$session.start();
+      if (!this.$session.has("token")) {
+        router.push("/auth");
+      }
     },
   },
 };
