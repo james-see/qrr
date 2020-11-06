@@ -6,14 +6,18 @@ the code for qrr.codes
 
 This project is vue.js and django for the backend.
 
-Pre-requisites:
+### Pre-requisites:
 
 Python 3.9+ (recommend using pyenv and installing it)
 
 You should be familiar with python and javascript to make this work.
 
+There is a requirements.txt in
+
+### quickstart steps
+
 1. run pipenv shell
-2. run pipenv install
+2. run pipenv install which reads from the Pipfile, if not, there is a requirements.txt file in qrrserver folder
 3. start the django server
 4. in a separate terminal window transpile the code for production and run python http.server from the public folder
 
