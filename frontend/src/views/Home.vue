@@ -4,13 +4,13 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to the Animal Rescue League          
+          Welcome to the QRR CODES          
         </h1>
         <h2 class="subtitle">
-          Make sure you check out our upcoming events below
+          Generate Your QRR Code Below
         </h2>
         <div class="button-block">
-          <button v-if="!$auth.isAuthenticated" @click="login" class="button is-xl is-dark">Sign Up to Browse Events</button>
+          <button v-if="!$auth.isAuthenticated" @click="login" class="button is-xl is-dark">Sign Up to Track QR Code Scans</button>
           <h3 v-if="$auth.isAuthenticated" class="is-size-3 has-background-dark welcome">Welcome, {{ $auth.user.name }}!</h3>
         </div>
       </div>
@@ -37,7 +37,8 @@ export default {
 <style lang="scss" scoped>
   .hero {    
     text-align: center;
-    background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');
+    /*background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');*/
+    background-color: #fff;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
