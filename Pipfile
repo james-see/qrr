@@ -6,21 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-astroid = "*"
-colorama = "*"
-django-cors-headers = "*"
-django-filter = "*"
-djangorestframework = "*"
-djangorestframework-jwt = "*"
-isort = "*"
-lazy-object-proxy = "*"
-mccabe = "*"
-pycodestyle = "*"
-pytz = "*"
-six = "*"
-typed-ast = "*"
-wrapt = "*"
-Django = "*"
 PyJWT = "*"
 
 [requires]
