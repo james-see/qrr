@@ -93,6 +93,7 @@ export default {
             router.push("/");
           })
           .catch((e) => {
+            console.log(e);
             this.loading = false;
             swal({
               type: "warning",
