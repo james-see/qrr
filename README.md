@@ -21,7 +21,7 @@ Vue via `npm install -g @vue/cli`
 3. start the django server
 4. in a separate terminal window transpile the code for production and run python http.server from the public folder
 
-## faq
+## faqnp
 
 1. How did you create this?
 
