@@ -27,6 +27,8 @@ Vue via `npm install -g @vue/cli`
 
 Following [this guide](https://medium.com/@samy_raps/simple-movies-web-app-with-vue-vuetify-and-django-part-1-setup-6351c02327a5) originally and building off of it from there.
 
+Actually, that guide really sucks. [This](https://stackabuse.com/single-page-apps-with-vue-js-and-flask-jwt-authentication/) one may be better.
+
 2. Where are the clean and build and run commands in a Makefile?
 
 Coming soon.
