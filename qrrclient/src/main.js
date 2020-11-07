@@ -6,7 +6,7 @@ import vuetify from "./plugins/vuetify";
 import "vuetify/dist/vuetify.min.css";
 import VueSession from "vue-session";
 
-Vue.use(Vuetify);
+Vue.use(vuetify);
 Vue.use(VueSession);
 
 Vue.config.productionTip = false;
