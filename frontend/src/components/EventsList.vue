@@ -1,6 +1,6 @@
 <template>
   <div class="events container">
-    <h2 class="subtitle is-3">Check out our upcoming events</h2>
+    <h2 class="subtitle is-3">Create a QR code below</h2>
     <div class="columns is-multiline">
       <div v-for="event in events" :event="event" :key="event.id" class="column is-one-quarter">
         <router-link :to="`/event/${event.id}`">
@@ -23,7 +23,7 @@ export default {
       events: [
         {
           id: 1,
-          name: "Charity Ball",
+          name: "QR Code Generator",
           category: "Fundraising",
           description:
             "Spend an elegant night of dinner and dancing with us as we raise money for our new rescue farm.",
@@ -33,21 +33,9 @@ export default {
             "https://placekitten.com/500/500",
             "https://placekitten.com/500/500"
           ],
-          location: "1234 Fancy Ave",
+          location: "Try Now",
           date: "12-25-2019",
           time: "11:30"
-        },
-        {
-          id: 2,
-          name: "Rescue Center Goods Drive",
-          category: "Adoptions",
-          description:
-            "Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.",
-          featuredImage: "https://placekitten.com/500/500",
-          images: ["https://placekitten.com/500/500"],
-          location: "1234 Dog Alley",
-          date: "11-21-2019",
-          time: "12:00"
         }
       ]
     };

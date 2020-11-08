@@ -1,22 +1,8 @@
 <template>
-  <div class="event-single">
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">{{ event.name }}</h1>
-          <h2 class="subtitle">
-            <strong>Date:</strong>
-            {{ event.date }}
-            <br />
-            <strong>Time:</strong>
-            {{ event.time }}
-          </h2>
-        </div>
-      </div>
-    </section>
+  <div class="event-single is-info is-justify-content-center">
     <section class="event-content">
-      <div class="container-fluid">
-        <div class="text-center">
+      <div class="container is-fluid is-info">
+        <div class="is-centered is-justify-content-center">
           <img src="https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=160x160&chld=L|0"
                class="qr-code img-thumbnail img-responsive">
         </div>
@@ -39,6 +25,7 @@
   </div>
 </template>
 <script>
+var $ = require('jquery');
 function htmlEncode (value){
   return $('<div/>').text(value).html();
 }
